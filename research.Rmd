@@ -30,15 +30,12 @@ public services, administrative sanctions and environmental law.
 
 ::: {.entries}
 - ::: {.meta}
-  Working paper · Year
+  Working paper · 2026
   :::
-  **Title of the working paper.** One sentence on the argument and where it stands
-  — under review, presented at a workshop, available on request.
-
-- ::: {.meta}
-  Working paper · Year
-  :::
-  **Title of the working paper.** One sentence on the argument.
+  **Regulatory Accumulation and Simplification Reform in Chile.** The study
+  analyses two recent simplification reforms in Chile (L. 21.770 and L.
+  21.718) in order to identify the links between discourses on regulatory
+  accumulation and legal responses.
 :::
 
 ## Publications
