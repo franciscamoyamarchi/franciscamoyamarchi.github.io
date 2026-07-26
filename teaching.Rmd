@@ -9,12 +9,9 @@ Teaching
 # Teaching
 
 ::: {.lede}
-I teach public law and public policy to students who will spend their careers
-inside institutions — and I teach the two together.
-:::
-
 I have taught courses on public law and public policy at various levels and
 institutions.
+:::
 
 At the undergraduate level, my teaching has focused on administrative and
 constitutional law at law schools. I have also taught specialized courses in
