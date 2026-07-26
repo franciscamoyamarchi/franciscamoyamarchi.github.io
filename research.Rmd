@@ -1,0 +1,72 @@
+---
+pagetitle: "Research — Francisca Moya Marchi"
+---
+
+::: {.eyebrow}
+Research
+:::
+
+# Public law as infrastructure for innovation
+
+::: {.lede}
+My research asks how constitutional and administrative law shape the state's
+capacity to direct innovation towards public purposes.
+:::
+
+::: {.todo}
+Placeholder. Replace the paragraph below with two or three paragraphs on the
+research agenda, then keep the sections that apply and delete the rest.
+:::
+
+Doctoral research at UCL's Institute for Innovation and Public Purpose examining
+the legal conditions under which public institutions can invest, experiment, and
+share in the rewards of innovation — and the constitutional and administrative
+constraints that bear on them.
+
+## Research interests
+
+- Administrative law and regulatory design
+- Comparative constitutional law
+- Public purpose innovation and mission-oriented policy
+- Socio-legal methods and policy analysis
+- State capacity and the law of public administration
+
+## Working papers
+
+::: {.entries}
+- ::: {.meta}
+  Working paper · Year
+  :::
+  **Title of the working paper.** One sentence on the argument and where it stands
+  — under review, presented at a workshop, available on request.
+
+- ::: {.meta}
+  Working paper · Year
+  :::
+  **Title of the working paper.** One sentence on the argument.
+:::
+
+## Publications
+
+::: {.entries}
+- ::: {.meta}
+  Journal article · Year
+  :::
+  Author names, 'Title of the article', *Journal Name* volume(issue), pages.
+  [Link](#)
+
+- ::: {.meta}
+  Book chapter · Year
+  :::
+  Author names, 'Title of the chapter', in Editor (ed.), *Book Title*
+  (Publisher). [Link](#)
+:::
+
+## Selected talks
+
+::: {.entries}
+- ::: {.meta}
+  Conference · Place · Year
+  :::
+  Title of the paper presented.
+:::

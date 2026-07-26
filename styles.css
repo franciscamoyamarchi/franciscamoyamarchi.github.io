@@ -1,0 +1,412 @@
+/* ==========================================================================
+   Francisca Moya Marchi — site styles
+   Palette: lapis lazuli (Chile's national stone) with pyrite-gold flecks.
+   Type: Faustina (display) · IBM Plex Sans (body) · IBM Plex Mono (labels).
+   Signature: marginal notes, after the side-notes of statute books.
+   ========================================================================== */
+
+:root {
+  --lapis: #1b3a6b;
+  --lapis-deep: #132a4f;
+  --pyrite: #c9a227;
+  --paper: #fcfbf8;
+  --ink: #191c22;
+  --slate: #5c6575;
+  --rule: #e2e0d9;
+
+  --rail-w: 17rem;
+  --measure: 34rem;
+  --note-w: 9.5rem;
+  --gap: 2.25rem;
+}
+
+/* Reset rmarkdown / bootstrap-ish wrappers so the rail can sit flush ------- */
+.main-container,
+.container-fluid,
+.container {
+  max-width: none;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.68;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Skip link ---------------------------------------------------------------- */
+.skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--lapis);
+  color: #fff;
+  padding: 0.6rem 1rem;
+  font-size: 0.85rem;
+}
+.skip:focus { left: 0; }
+
+/* --------------------------------------------------------------------------
+   Rail
+   -------------------------------------------------------------------------- */
+.rail {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: var(--rail-w);
+  padding: 3rem 2rem 2rem;
+  background: var(--lapis);
+  color: #eef1f6;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  overflow-y: auto;
+}
+
+.wordmark {
+  display: block;
+  font-family: Faustina, Georgia, serif;
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  color: #fff;
+  text-decoration: none;
+}
+.wordmark span { color: #b9c7dd; }
+.wordmark:hover span { color: var(--pyrite); }
+
+.role {
+  margin: 1rem 0 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.68rem;
+  line-height: 1.7;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #93a6c4;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+.nav a {
+  position: relative;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  font-family: Faustina, Georgia, serif;
+  font-size: 1.1rem;
+  color: #dfe6f1;
+  text-decoration: none;
+  transition: color 140ms ease;
+}
+.nav a::before {
+  content: "";
+  position: absolute;
+  left: -2rem;
+  top: 50%;
+  width: 1.1rem;
+  height: 2px;
+  background: var(--pyrite);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 180ms ease;
+}
+.nav a:hover,
+.nav a.is-current { color: #fff; }
+.nav a:hover::before,
+.nav a.is-current::before { transform: scaleX(1); }
+
+.rail-foot { margin-top: auto; }
+
+.affil {
+  margin: 0 0 1.1rem;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: #a9bad4;
+}
+
+.contact {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+}
+.contact a {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: #eef1f6;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.55);
+  padding-bottom: 1px;
+}
+.contact a:hover { border-bottom-color: var(--pyrite); color: var(--pyrite); }
+
+/* --------------------------------------------------------------------------
+   Content column
+   -------------------------------------------------------------------------- */
+.content {
+  margin-left: var(--rail-w);
+  padding: 5.5rem calc(var(--note-w) + var(--gap)) 4rem 4.5rem;
+  max-width: calc(var(--rail-w) + var(--measure) + var(--note-w) + var(--gap) + 9rem);
+  animation: rise 520ms cubic-bezier(0.2, 0.7, 0.3, 1) both;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(0.6rem); }
+  to   { opacity: 1; transform: none; }
+}
+
+.content p,
+.content ul,
+.content ol,
+.content h2,
+.content h3,
+.content blockquote,
+.content dl,
+.content table { max-width: var(--measure); }
+
+/* Eyebrow: the section label, set like a docket reference ------------------- */
+.eyebrow {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--slate);
+  margin: 0 0 1.4rem;
+}
+.eyebrow p { margin: 0; }
+.eyebrow::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 2px;
+  margin-top: 0.9rem;
+  background: var(--pyrite);
+}
+
+h1, h2, h3, h4 {
+  font-family: Faustina, Georgia, serif;
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: -0.012em;
+}
+
+h1 {
+  font-size: clamp(1.9rem, 3.6vw, 2.9rem);
+  line-height: 1.14;
+  margin: 0 0 2rem;
+  max-width: 30rem;
+  text-wrap: balance;
+}
+
+h2 {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin: 3.2rem 0 1rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--rule);
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin: 2rem 0 0.5rem;
+}
+
+p { margin: 0 0 1.35rem; }
+
+.lede {
+  font-size: 1.2rem;
+  line-height: 1.55;
+  color: #2c313c;
+  max-width: var(--measure);
+  margin-bottom: 2.4rem;
+}
+.lede p { margin: 0 0 1rem; }
+.lede p:last-child { margin-bottom: 0; }
+
+a {
+  color: var(--lapis);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.6);
+  transition: background 140ms ease;
+}
+a:hover { background: rgba(201, 162, 39, 0.16); }
+
+strong { font-weight: 500; }
+em { font-style: italic; }
+
+:focus-visible {
+  outline: 2px solid var(--pyrite);
+  outline-offset: 3px;
+}
+
+ul, ol { padding-left: 1.2rem; margin: 0 0 1.35rem; }
+li { margin-bottom: 0.5rem; }
+
+/* Reference list: publications, papers, courses ---------------------------- */
+.entries,
+.entries ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+  max-width: var(--measure);
+}
+.entries li {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--rule);
+  margin: 0;
+}
+.entries li p:last-child { margin-bottom: 0; }
+.entries .meta {
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--slate);
+  margin-bottom: 0.35rem;
+}
+.entries .meta p { margin: 0; }
+
+blockquote {
+  margin: 2rem 0;
+  padding-left: 1.4rem;
+  border-left: 2px solid var(--pyrite);
+  font-family: Faustina, Georgia, serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #2c313c;
+}
+
+/* --------------------------------------------------------------------------
+   Signature: marginal notes
+   Place a ::: {.marginnote} block immediately before the paragraph it annotates.
+   -------------------------------------------------------------------------- */
+.marginnote {
+  float: right;
+  clear: right;
+  width: var(--note-w);
+  margin-right: calc((var(--note-w) + var(--gap)) * -1);
+  margin-top: 0.45rem;
+  margin-bottom: 1rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid var(--lapis);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+  line-height: 1.55;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  text-align: left;
+}
+.marginnote p { margin: 0 0 0.4rem; }
+.marginnote strong {
+  display: block;
+  color: var(--lapis);
+  font-weight: 500;
+}
+
+/* Placeholder flag — delete these blocks as the site fills in -------------- */
+.todo {
+  margin: 0 0 1.35rem;
+  padding: 0.85rem 1rem;
+  background: rgba(27, 58, 107, 0.05);
+  border-left: 2px solid var(--slate);
+  font-size: 0.9rem;
+  color: var(--slate);
+  max-width: var(--measure);
+}
+.todo p { margin: 0; }
+
+/* Colophon ----------------------------------------------------------------- */
+.colophon {
+  margin: 5rem 0 0;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--slate);
+  max-width: var(--measure);
+}
+.colophon p { margin: 0; }
+
+/* --------------------------------------------------------------------------
+   Narrow screens
+   -------------------------------------------------------------------------- */
+@media (max-width: 62rem) {
+  .marginnote {
+    float: none;
+    width: auto;
+    margin: 0 0 1.1rem;
+    padding: 0 0 0 0.9rem;
+    border-top: 0;
+    border-left: 2px solid var(--lapis);
+    max-width: var(--measure);
+  }
+  .content {
+    padding-right: 2rem;
+    padding-left: 3rem;
+  }
+}
+
+@media (max-width: 50rem) {
+  .rail {
+    position: static;
+    width: auto;
+    padding: 2rem 1.5rem 1.5rem;
+    gap: 1.5rem;
+  }
+  .nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    padding-top: 0.4rem;
+  }
+  .nav a { border-bottom: 0; padding: 0.4rem 0; }
+  .nav a::before { left: 0; top: auto; bottom: 0.15rem; }
+  .rail-foot { margin-top: 0.5rem; }
+  .affil { margin-bottom: 0.8rem; }
+  .content {
+    margin-left: 0;
+    padding: 2.75rem 1.5rem 3rem;
+    max-width: none;
+  }
+}
+
+/* Motion and print --------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+@media print {
+  .rail, .skip { display: none; }
+  body { background: #fff; font-size: 11pt; }
+  .content { margin: 0; padding: 0; max-width: none; }
+  a { border-bottom: 0; color: #000; }
+  .marginnote { float: none; width: auto; margin: 0 0 1rem; }
+}

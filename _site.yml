@@ -1,0 +1,15 @@
+name: "francisca-moya-marchi"
+output_dir: "docs"
+exclude: ["build.R", "README.md", "*.Rproj", "*.Rproj.user"]
+output:
+  html_document:
+    theme: null
+    highlight: null
+    css: styles.css
+    self_contained: false
+    mathjax: null
+    df_print: default
+    includes:
+      in_header: _includes/head.html
+      before_body: _includes/rail.html
+      after_body: _includes/footer.html

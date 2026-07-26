@@ -1,0 +1,17 @@
+  <footer class="colophon">
+    <p>Francisca Moya Marchi · London</p>
+    <p>Last updated July 2026</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var file = (location.pathname.split("/").pop() || "index.html").replace(".html", "");
+  if (file === "") file = "index";
+  var link = document.querySelector('.nav a[data-page="' + file + '"]');
+  if (link) {
+    link.classList.add("is-current");
+    link.setAttribute("aria-current", "page");
+  }
+})();
+</script>

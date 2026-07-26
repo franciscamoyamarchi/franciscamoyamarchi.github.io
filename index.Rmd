@@ -1,0 +1,63 @@
+---
+pagetitle: "Francisca Moya Marchi"
+---
+
+::: {.eyebrow}
+Bio
+:::
+
+# Law, regulation, and the conditions for public purpose innovation
+
+::: {.lede}
+I am a lawyer and policy researcher working at the intersections of
+administrative law, regulation, and public policy, drawing on socio-legal
+methods, public law theory, and policy analysis.
+:::
+
+::: {.marginnote}
+**Education**
+
+LLB and Diploma in Economic Law, University of Chile
+
+LLM in Public Law, LSE
+:::
+
+My academic journey includes an LLB and a Diploma in Economic Law (University of
+Chile), and an LLM in Public Law (London School of Economics and Political
+Science), focused on comparative constitutional and administrative law.
+
+::: {.marginnote}
+**Doctoral work**
+
+PhD in Innovation and Public Policy, Institute for Innovation and Public Purpose,
+UCL
+
+Supervisors: Dr Cecilia Rikap and Professor Jeff King
+:::
+
+I am currently pursuing a PhD in Innovation and Public Policy at the Institute
+for Innovation and Public Purpose, University College London, under the
+supervision of Dr. Cecilia Rikap and Professor Jeff King. My dissertation
+examines the role of constitutional and administrative law in shaping the
+conditions for public purpose innovation.
+
+::: {.marginnote}
+**In government**
+
+Chief of the Legal Office, Presidency of Chile
+
+Legal adviser, Presidency of Chile
+
+Law clerk, Constitutional Court of Chile
+:::
+
+Before returning to academia, I served as Chief of the Legal Office of the
+Presidency of Chile, advising on legislative strategy and regulatory design at
+the highest level of government. Prior roles include legal adviser to the same
+institution and law clerk at the Constitutional Court of Chile, experiences that
+enrich my academic work with practical knowledge of law-making and public
+administration.
+
+You will find out more about my research, teaching, and publications in the other
+sections of this website: [research](research.html),
+[teaching](teaching.html), and [policy](policy.html).

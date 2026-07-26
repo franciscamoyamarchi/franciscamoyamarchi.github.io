@@ -1,0 +1,73 @@
+---
+pagetitle: "Policy — Francisca Moya Marchi"
+---
+
+::: {.eyebrow}
+Policy
+:::
+
+# Practice
+
+::: {.lede}
+Before returning to academia I worked at the centre of government in Chile, on
+legislative strategy and regulatory design.
+:::
+
+::: {.marginnote}
+**Presidency of Chile**
+
+Chief of the Legal Office
+
+Legal adviser
+:::
+
+As Chief of the Legal Office of the Presidency of Chile, I advised on legislative
+strategy and regulatory design at the highest level of government, and earlier
+served as legal adviser to the same institution.
+
+::: {.marginnote}
+**Constitutional Court of Chile**
+
+Law clerk
+:::
+
+As a law clerk at the Constitutional Court of Chile, I worked on constitutional
+review — experience that continues to inform how I read the relationship between
+courts, legislatures, and administration.
+
+::: {.todo}
+Placeholder. Add the advisory work, policy writing, and public commentary you want
+to be visible here. Delete the sections you do not use.
+:::
+
+## Advisory work
+
+::: {.entries}
+- ::: {.meta}
+  Organisation · Year
+  :::
+  **Role or engagement.** One line on the mandate and the output.
+:::
+
+## Policy writing
+
+::: {.entries}
+- ::: {.meta}
+  Report · Year
+  :::
+  **Title of the report or brief.** Publisher or institution. [Link](#)
+
+- ::: {.meta}
+  Commentary · Year
+  :::
+  **Title of the piece.** Outlet. [Link](#)
+:::
+
+## Press and public commentary
+
+::: {.entries}
+- ::: {.meta}
+  Outlet · Year
+  :::
+  Title of the interview or contribution. [Link](#)
+:::

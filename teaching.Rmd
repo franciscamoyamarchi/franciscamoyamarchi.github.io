@@ -1,0 +1,53 @@
+---
+pagetitle: "Teaching — Francisca Moya Marchi"
+---
+
+::: {.eyebrow}
+Teaching
+:::
+
+# Teaching
+
+::: {.lede}
+I teach public law and public policy to students who will spend their careers
+inside institutions — and I teach the two together.
+:::
+
+::: {.todo}
+Placeholder. Replace the statement below with your own, and list the courses you
+have taught. Delete any section you do not need.
+:::
+
+Short teaching statement: what students take away from your courses, how you
+teach law alongside policy practice, and what you draw on from government
+experience.
+
+## Courses
+
+::: {.entries}
+- ::: {.meta}
+  Institution · Term, Year · Role
+  :::
+  **Course title.** One or two lines on the content and level of the course —
+  seminar or lecture, undergraduate or postgraduate, number of students.
+
+- ::: {.meta}
+  Institution · Term, Year · Role
+  :::
+  **Course title.** One or two lines on the content.
+:::
+
+## Guest lectures and workshops
+
+::: {.entries}
+- ::: {.meta}
+  Institution · Year
+  :::
+  Title of the lecture or workshop.
+:::
+
+## Supervision
+
+I am happy to hear from students working on administrative law, regulation, or
+innovation policy. Write to me at
+[EMAIL@ucl.ac.uk](mailto:EMAIL@ucl.ac.uk) with a short outline of your project.
