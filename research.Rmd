@@ -119,4 +119,10 @@ constraints that bear on them.
   II Jornadas de Justicia Ambiental · Valdivia, Chile · 2016
   :::
   Precautionary principle in environmental judicial decisions in Chile.
+
+- ::: {.meta}
+  Congreso de Derecho y Cambio Social · Valdivia, Chile · 2016
+  :::
+  Economic analysis of the rationale behind the Transantiago regulatory
+  framework.
 :::
