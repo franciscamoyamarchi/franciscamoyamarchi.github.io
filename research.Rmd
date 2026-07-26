@@ -48,18 +48,56 @@ constraints that bear on them.
 
 ## Publications
 
+### Books
+
 ::: {.entries}
 - ::: {.meta}
-  Journal article · Year
+  Book · 2014
   :::
-  Author names, 'Title of the article', *Journal Name* volume(issue), pages.
-  [Link](#)
+  Moya, F., *El principio de precaución: Un estudio sobre el modelo europeo
+  de control del riesgo* (Thomson Reuters).
+:::
+
+### Book chapters
+
+::: {.entries}
+- ::: {.meta}
+  Book chapter · 2022
+  :::
+  Moya, F. & Salgado, C., 'Social rights and Chile's constitutional moment',
+  in K. Koldo (ed.), *Social Rights and the Constitutional Moment: Learning
+  from Chile and International Experiences* (Hart | Bloomsbury).
 
 - ::: {.meta}
-  Book chapter · Year
+  Book chapter · 2019
   :::
-  Author names, 'Title of the chapter', in Editor (ed.), *Book Title*
-  (Publisher). [Link](#)
+  Guiloff, M. & Moya, F., 'Derecho a un medioambiente sano', in P. Contreras
+  & C. Salgado (eds.), *Derechos Fundamentales Parte Especial* (LOM).
+
+- ::: {.meta}
+  Book chapter · 2019
+  :::
+  Moya, F., 'El principio de precaución en la jurisprudencia ambiental
+  chilena', in J. C. Ferrada, A. Bordalí & M. Prieto (eds.), *Actas II
+  Jornadas de Justicia Ambiental* (Ediciones Universitarias de Valparaíso).
+
+- ::: {.meta}
+  Book chapter · 2017
+  :::
+  Moya, F., 'La aplicación de principios del Derecho penal en el Derecho
+  administrativo sancionador', in R. Figueroa (ed.), *Anuario de Derecho
+  Público* (Ediciones UDP).
+:::
+
+### Journal articles
+
+::: {.entries}
+- ::: {.meta}
+  Journal article · 2018
+  :::
+  Letelier, R. & Moya, F., 'Recentralización e internalización municipal:
+  Dos tendencias en el Derecho local chileno', *Anuario de Derecho
+  Municipal* 10, 191-207.
 :::
 
 ## Selected talks
