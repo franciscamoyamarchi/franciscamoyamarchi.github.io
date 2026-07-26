@@ -9,19 +9,14 @@ Research
 # Public law as infrastructure for innovation
 
 ::: {.lede}
-My research asks how constitutional and administrative law shape the state's
-capacity to direct innovation towards public purposes.
+My doctoral research at UCL's Institute for Innovation and Public Purpose
+examining the legal conditions under which public institutions can invest,
+experiment, and share in the rewards of innovation, and the constitutional
+and administrative constraints that bear on them.
 :::
 
-::: {.todo}
-Placeholder. Replace the paragraph below with two or three paragraphs on the
-research agenda, then keep the sections that apply and delete the rest.
-:::
-
-Doctoral research at UCL's Institute for Innovation and Public Purpose examining
-the legal conditions under which public institutions can invest, experiment, and
-share in the rewards of innovation — and the constitutional and administrative
-constraints that bear on them.
+My previous research explored different issues related to the provision of
+public services, administrative sanctions and environmental law.
 
 ## Research interests
 
