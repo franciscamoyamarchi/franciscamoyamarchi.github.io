@@ -104,7 +104,19 @@ constraints that bear on them.
 
 ::: {.entries}
 - ::: {.meta}
-  Conference · Place · Year
+  School of Advanced Science on Regulatory Governance · São Paulo, Brazil · 2026
   :::
-  Title of the paper presented.
+  From Diagnosis to Design: Regulatory Accumulation and Simplification Reform
+  in Chile.
+
+- ::: {.meta}
+  El retorno al Estado · Santiago, Chile · 2017
+  :::
+  Direct provision of garbage collection services in major metropolitan
+  boroughs in Chile.
+
+- ::: {.meta}
+  II Jornadas de Justicia Ambiental · Valdivia, Chile · 2016
+  :::
+  Precautionary principle in environmental judicial decisions in Chile.
 :::
