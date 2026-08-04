@@ -61,3 +61,5 @@ administration.
 You will find out more about my research, teaching, and publications in the other
 sections of this website: [research](research.html),
 [teaching](teaching.html), and [policy](policy.html).
+
+[Download CV](files/CV%20FMM%202026.pdf)
